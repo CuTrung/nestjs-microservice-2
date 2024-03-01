@@ -1,13 +1,13 @@
 /* eslint-disable */
 export default {
-  displayName: 'nestjs-microservice-2',
+  displayName: 'nestjs-microservice',
   preset: './jest.preset.js',
   testEnvironment: 'node',
   transform: {
-    '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }]
+    '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: './coverage/nestjs-microservice-2',
+  coverageDirectory: './coverage/nestjs-microservice',
   testMatch: [
     '<rootDir>/src/**/__tests__/**/*.[jt]s?(x)',
     '<rootDir>/src/**/*(*.)@(spec|test).[jt]s?(x)',

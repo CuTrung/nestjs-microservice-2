@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-microservice-2",
+  "name": "nestjs-microservice",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "src",
   "projectType": "application",
@@ -8,14 +8,14 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "nestjs-microservice-2:build"
+        "buildTarget": "nestjs-microservice:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "nestjs-microservice-2:build:development"
+          "buildTarget": "nestjs-microservice:build:development"
         },
         "production": {
-          "buildTarget": "nestjs-microservice-2:build:production"
+          "buildTarget": "nestjs-microservice:build:production"
         }
       }
     }
