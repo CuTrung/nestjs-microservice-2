@@ -8,6 +8,7 @@
     "test": "nx test",
     "e2e": "nx e2e e2e",
     "format": "nx format:write",
+    "i-prod": "npm i --ignore-scripts",
     "init-husky": "husky && copy husky-prepare\\pre-commit .husky\\pre-commit && copy husky-prepare\\commit-msg .husky\\commit-msg",
     "postinstall": "(if exist .husky rmdir /s /q .husky) && npm run init-husky"
   },
@@ -18,6 +19,7 @@
     "@nestjs/config": "^3.2.0",
     "@nestjs/core": "^10.0.2",
     "@nestjs/mapped-types": "*",
+    "@nestjs/microservices": "^10.3.3",
     "@nestjs/platform-express": "^10.0.2",
     "@nestjs/throttler": "^5.1.2",
     "axios": "^1.6.0",
